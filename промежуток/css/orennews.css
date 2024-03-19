@@ -1,0 +1,73 @@
+body {
+background-color:hsl(240, 2%, 91%);
+}
+.logo {
+	width:20%;
+}
+
+
+.navpan ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+}
+
+.navpan li {
+    float: left;
+}
+
+.navpan li a {
+    display: block;
+    color: rgb(49, 49, 49);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navpan li a:hover {
+    background-color: white;
+}
+
+.work>img {
+    width: 1750px;
+    height: 150px;
+}
+
+.active {
+    background-color: red;
+    color: white;
+}
+.column_orennews {
+    float: left;
+    width: 400px;
+    height: 150px;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  .card-orennews {
+    box-shadow: 0 4px 8px 0 rgba(66, 112, 197, 0.651);
+  }
+  
+  .container_orennews {
+    float: left;
+    padding: 0 16px;
+    margin: 10px;
+    color: white;
+  }
+  
+  .card_work_orennews>img {
+    width: 800px;
+    height: 200px;
+  }
+  
+.covers { 
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0;
+}

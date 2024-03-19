@@ -1,0 +1,36 @@
+
+.column {
+  float: left;
+  width: 340px;
+  height: 150px;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(66, 112, 197, 0.651);
+}
+
+.container {
+  padding: 0 16px;
+  margin: 10px;
+}
+
+.card_work>img {
+  width: 340px;
+  height: 150px;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #292a42;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+.button:hover {
+  background-color: #555;
+}
